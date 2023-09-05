@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0d5f36efefacad0498cf09a90ba12d3d, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a82e271a16792264694b01da46b5122e, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: aedd2c409a1e6264a9d25dc9412012ef, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: dbd028c03cc2ec84b9f7ff1295009a7c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 47b0b931d893d624db2f9de8106fd104, type: 2}
