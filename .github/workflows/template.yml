@@ -28,6 +28,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          packageMode: true
           
       # Free disk space
       - name: Free Disk Space for Android
