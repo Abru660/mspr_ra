@@ -28,6 +28,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          allowDirtyBuild: true
 
       # Build
       - name: Build project
