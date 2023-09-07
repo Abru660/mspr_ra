@@ -28,7 +28,6 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          packageMode: true
           unityVersion: 2019.4.1f1
           
       # Free disk space
